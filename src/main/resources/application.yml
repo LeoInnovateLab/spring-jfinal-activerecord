@@ -1,0 +1,13 @@
+spring:
+  # 数据源配置
+  datasource:
+    main: #主数据源
+      driverClassName: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/csdn1
+      username: root
+      password: 123456
+    biz: #业务数据源
+      driverClassName: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/csdn2
+      username: root
+      password: 123456
